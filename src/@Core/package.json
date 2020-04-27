@@ -1,0 +1,30 @@
+{
+  "name": "vela-core",
+  "version": "0.0.2",
+  "description": "Vela Core module",
+  "private": false,
+  "author": "Phan Trung <phantrung696@gmail.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/preset-react": "^7.6.3"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:2222/repository/core-private-npm/"
+  }
+}

@@ -1,0 +1,12 @@
+.form-field-group .field-label {
+    font-weight: 600;
+    margin-right: 5px;
+}
+.field-label .field-required {
+    font-size: 10px;
+    color: #fd397a;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}

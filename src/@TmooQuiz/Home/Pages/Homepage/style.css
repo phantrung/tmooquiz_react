@@ -1,0 +1,13 @@
+.section-category  h3.title {
+    position: absolute;
+    top: -5px;
+    /*left: 15px;*/
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    color: #007eff;
+    z-index: 1;
+    font-weight: 700;
+}
+h3.title i {
+    color: #e74c3c;
+}

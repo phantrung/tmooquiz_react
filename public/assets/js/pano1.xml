@@ -1,0 +1,6 @@
+﻿<krpano>
+    <imgage>
+		<cube url="https://cdn.e3d.com.vn/qrcode-pos3d/assets/panorama/tb-3/BATHROOM_1_2_%s.jpg"/>
+    </imgage>
+    <view hlookat="0" vlookat="0" fov="100" distortion="0.0"/>
+</krpano>

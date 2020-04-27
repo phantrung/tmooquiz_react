@@ -1,0 +1,41 @@
+.iron-image-container {
+    position: relative;
+    background: none !important;
+    width: 100%;
+    height: 100%;
+    /*margin: 0 auto;*/
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iron-image-preload {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    background-size: cover;
+    border: 1px solid #fff;
+    background: #dddddd;
+    align-items: center;
+    justify-content: center;
+}
+.iron-image-loaded {
+    z-index: 2;
+    opacity: 0;
+    position: relative;
+    transition: opacity 1s ease;
+}
+
+.iron-image-fade-in {
+    opacity: 1;
+}
+.loading-img {
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
